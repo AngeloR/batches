@@ -1,6 +1,6 @@
-# batches
+# batchd
 
-Batches is a simple script that collects items and then executes a callback 
+Batchd is a simple script that collects items and then executes a callback 
 once it has collected enough items.
 
 When you are dealing with large volumes of data in a OLTP environment, you 
@@ -9,12 +9,12 @@ things like database queries.
 
 # Installation
 ```
-npm install batches
+npm install batchd
 ```
 
 # Usage
 ```js
-var Batches = require('batches'),
+var Batches = require('batchd'),
 	collection;
 
 collection = new Batches({

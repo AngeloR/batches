@@ -1,5 +1,5 @@
 {
-  "name": "batches",
+  "name": "batchd",
   "version": "0.1.0",
   "description": "collects things and executes a callback after the desired number of items have been accumulated",
   "main": "index.js",
