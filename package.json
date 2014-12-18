@@ -1,12 +1,19 @@
 {
     "name": "batches",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "collects things and executes a callback after the desired number of items have been accumulated",
     "main": "index.js",
     "author": "Angelo R <xangelo@gmail.com>",
     "main": "index.js",
     "keywords": [ "batch", "processing" ],
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AngeloR/batches.git"
+    },
+    "bugs": { 
+        "url":  "https://github.com/AngeloR/batches/issues"
+    },
     "devDependencies": { 
         "mocha":  "*"
     }
